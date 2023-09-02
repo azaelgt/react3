@@ -1,0 +1,36 @@
+/* RightSection.css */
+
+.right-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .person-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+  
+  .person-card img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .person-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .person-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
